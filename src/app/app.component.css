@@ -44,41 +44,28 @@ body{
     background-color: rgb(224, 220, 220);
 }
 
-
-
-.div-3 {
-    position:relative;
+footer {
     width: 100%;
+    height: 800px;
+    background-image: url("https://th.bing.com/th/id/OIP.790808Bj7bBga4l1jXdhuwHaEK?rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+    background-size: 1900px 800px;  
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
-.div-3 .first-slide {
-    width: 100%;
-    background-color: hsla(43, 14%, 74%, 0.539);
+.div-4 .footer-1 {
+    display: grid;
+    grid-column: 1;
+    bottom: 0%; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 180px; /* Some padding */
 }
 
-.div-3 .third-slide {
-    width: 100%;
-    background-color: hsla(43, 14%, 74%, 0.539);
-}
 
-.div-3 .first-slide .display-image{
-    width: 45%;
-    margin-top: 2%;
-    margin-left: 2%;
-   
-}
 
-.div-3 .second-slide .display-image {
-    width: 45%;
-    margin-top: 2%;
-    margin-left: 48%;
-}
-
-.div-3 .third-slide .display-image {
-    width: 45%;
-    margin-top: 2%;
-    margin-left: 2%;
-    
-}
 
 

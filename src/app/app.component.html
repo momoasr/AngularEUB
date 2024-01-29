@@ -12,13 +12,13 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                       <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#">About us</a>
+                          <a class="nav-link" routerLink="/about">About us</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#">Donate</a>
+                          <a class="nav-link" routerLink="/donate">Donate</a>
                       </li>
                   </ul>
                   <form class="d-flex">
@@ -36,25 +36,40 @@
   <header>
       <app-information></app-information>
   </header>
-  <div class="div-3">
-      <div class="first-slide">
-          <img src="https://s.rfi.fr/media/display/fd6c9392-100a-11ea-8c7f-005056bf7c53/w:980/p:16x9/pepiniere%20ok_0.jpg" class="display-image" alt="reboisement">
-          <div class="message-1">
-              <h3>REBOISEMENT</h3>
-          </div>
-      </div>
-      <div class="second-slide">
-          <img src="https://s.rfi.fr/media/display/fd6c9392-100a-11ea-8c7f-005056bf7c53/w:980/p:16x9/pepiniere%20ok_0.jpg" class="display-image" alt="reboisement">
-          <div class="message-2">
-              <h3>ABORIGINAL POPULATION</h3>
-          </div>
-      </div>
-      <div class="third-slide">
-          <img src="https://s.rfi.fr/media/display/fd6c9392-100a-11ea-8c7f-005056bf7c53/w:980/p:16x9/pepiniere%20ok_0.jpg" class="display-image" alt="reboisement">
-          <div class="message-3">
-              <h3>BIODIVERSITY</h3>
-          </div>
-      </div>
-  </div>
+  <router-outlet></router-outlet>
+  <footer>
+    <div class="div-4">
+        <div class="footer-1">
+            <div class="foot1">
+                <h1>The ul element</h1>
+                    <ul>
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Milk</li>
+                    </ul>
+            </div>
+            <div class="foot2">
+                <h1>The ul element</h1>
+                    <ul>
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Milk</li>
+                    </ul>
+            </div>
+            <div class="foot3">
+                <h1>The ul element</h1>
+                    <ul>
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Milk</li>
+                    </ul>
+            </div>
+            <div class="socialMedia">
+                
+            </div>
+        </div>
+    </div>
+  </footer>
+    
 </body>
 

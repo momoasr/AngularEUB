@@ -1,0 +1,34 @@
+.div-3 {
+    position:relative;
+    width: 100%;
+}
+
+.div-3 .first-slide {
+    width: 100%;
+    background-color: hsla(43, 14%, 74%, 0.539);
+}
+
+.div-3 .third-slide {
+    width: 100%;
+    background-color: hsla(43, 14%, 74%, 0.539);
+}
+
+.div-3 .first-slide .display-image{
+    width: 45%;
+    margin-top: 2%;
+    margin-left: 2%;
+   
+}
+
+.div-3 .second-slide .display-image {
+    width: 45%;
+    margin-top: 2%;
+    margin-left: 48%;
+}
+
+.div-3 .third-slide .display-image {
+    width: 45%;
+    margin-top: 2%;
+    margin-left: 2%;
+    
+}
