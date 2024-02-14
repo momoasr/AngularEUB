@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { InformationComponent } from './information/information.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutUsComponent,
     InformationComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

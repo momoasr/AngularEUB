@@ -1,4 +1,4 @@
-<p>{{"I am trying String concatination " + infoMessage}}</p>
+<p>{{"I am trying String concatination "}}</p>
 <div class="carousel">
     <div class="slider-wrapper">
         <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
@@ -14,7 +14,9 @@
             <img src="https://cdn.firespring.com/images/9bcb7341-2db6-4e45-8728-5a99c0f28303.png" class="image-item" alt="event">
             <img src="https://i.ytimg.com/vi/B2Z1q5LIvZs/maxresdefault.jpg" class="image-item" alt="miscellaneous">
         </div>
-        <button id="next-slide" class="slide-button material-symbols-rounded">chevron_right</button>
+        <div *ngIf="controls" class="btn-carousel btn-prev">
+            <i class="fas fa-arrow-circle-left icon-carousel icon-prev"></i>
+        </div>
     </div>
     <div class="slider-scrollbar">
         <div class="scrollbar-track">
